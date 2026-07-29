@@ -130,8 +130,6 @@ Monitoreo continuo del rendimiento de modelos, consumo de recursos, deriva de mo
 
 # 🗺️ Arquitectura de la Solución
 
-# 🗺️ Arquitectura de la Solución
-
 ```mermaid
 flowchart TD
 
@@ -157,10 +155,7 @@ J --> L[🏦 Core Banking<br/>CRM<br/>Pagos<br/>Tarjetas<br/>Fraude<br/>Riesgo C
 
 ```
 
----
-
 Arquitectura empresarial basada en Microsoft Azure y Databricks para diseñar, desplegar y gobernar soluciones de Inteligencia Artificial, Machine Learning y GenAI aplicadas al sector financiero, integrando analítica avanzada, modelos de riesgo crediticio, detección de fraude, automatización inteligente, cumplimiento regulatorio y gobierno de datos mediante prácticas MLOps, seguridad, observabilidad y escalabilidad empresarial.
----
 
 # 📊 Resultados esperados
 
