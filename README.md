@@ -130,9 +130,35 @@ Monitoreo continuo del rendimiento de modelos, consumo de recursos, deriva de mo
 
 # 🗺️ Arquitectura de la Solución
 
-<p align="center">
-  <img width="900" alt="Arquitectura de IA, ML y GenAI para Banca y Servicios Financieros" src="https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" />
-</p>
+Usuarios
+        |
+        ↓
+Portal Bancario / App Móvil / Canales Digitales
+        |
+        ↓
+FastAPI Backend
+        |
+        ↓
+Azure API Management
+        |
+        ↓
+Azure AI Foundry
+        |
+ ┌───────────────┬─────────────────┬───────────────┐
+ ↓               ↓                 ↓
+Azure OpenAI   Azure ML          MLflow
+GenAI          Modelos ML        MLOps
+                |
+                ↓
+          Azure Databricks
+                |
+      ┌─────────┴──────────┐
+      ↓                    ↓
+Azure Data Lake       Power BI
+Storage Gen2          Analytics
+      |
+      ↓
+Core Banking | CRM | Pagos | Tarjetas | Fraude | Riesgo
 ---
 Arquitectura empresarial basada en Microsoft Azure y Databricks para diseñar, desplegar y gobernar soluciones de Inteligencia Artificial, Machine Learning y GenAI aplicadas al sector financiero, integrando analítica avanzada, modelos de riesgo crediticio, detección de fraude, automatización inteligente, cumplimiento regulatorio y gobierno de datos mediante prácticas MLOps, seguridad, observabilidad y escalabilidad empresarial.
 ---
