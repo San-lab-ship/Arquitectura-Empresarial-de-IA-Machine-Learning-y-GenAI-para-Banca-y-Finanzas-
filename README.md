@@ -130,13 +130,13 @@ Monitoreo continuo del rendimiento de modelos, consumo de recursos, deriva de mo
 
 # 🗺️ Arquitectura de la Solución
 
+# 🗺️ Arquitectura de la Solución
+
 <p align="center">
-  <img width="900" alt="Arquitectura de IA, ML y GenAI para Banca y Finanzas - Diseño Moderno" src="https://replicate.delivery/xpbkg/27g5e2n6zXUeH1T96O9Q6789P7O89Y86X89R6O89P7O89Y86/out-0.png" />
+  <img width="900" alt="Arquitectura de IA, ML y GenAI para Banca y Servicios Financieros" src="https://github.com/user-attachments/assets/TU_ID_DE_IMAGEN" />
 </p>
-
 ---
-Arquitectura empresarial basada en Microsoft Azure y Databricks para diseñar, desplegar y gobernar soluciones de IA, Machine Learning y GenAI mediante MLOps, gobierno de datos, seguridad estricta y observabilidad, garantizando escalabilidad y preparación para producción en el sector financiero.
-
+Arquitectura empresarial basada en Microsoft Azure y Databricks para diseñar, desplegar y gobernar soluciones de Inteligencia Artificial, Machine Learning y GenAI aplicadas al sector financiero, integrando analítica avanzada, modelos de riesgo crediticio, detección de fraude, automatización inteligente, cumplimiento regulatorio y gobierno de datos mediante prácticas MLOps, seguridad, observabilidad y escalabilidad empresarial.
 ---
 
 # 📊 Resultados esperados
