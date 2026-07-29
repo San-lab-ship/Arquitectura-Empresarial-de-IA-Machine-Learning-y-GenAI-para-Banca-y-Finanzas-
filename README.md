@@ -131,7 +131,7 @@ Monitoreo continuo del rendimiento de modelos, consumo de recursos, deriva de mo
 # 🗺️ Arquitectura de la Solución
 
 <p align="center">
-  <img width="679" alt="Arquitectura de IA, ML y GenAI para Banca" src="https://github.com/user-attachments/assets/47d9d2fc-xxxx-xxxx-xxxx-xxxxxxxxxxxx" />
+  <img width="800" alt="Arquitectura de IA, ML y GenAI para Banca y Finanzas - Diseño Moderno" src="https://github.com/user-attachments/assets/7a3e4d8c-xxxx-xxxx-xxxx-xxxxxxxxxxxxb" />
 </p>
 
 ---
