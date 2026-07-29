@@ -130,36 +130,35 @@ Monitoreo continuo del rendimiento de modelos, consumo de recursos, deriva de mo
 
 # 🗺️ Arquitectura de la Solución
 
-Usuarios
-        |
-        ↓
-Portal Bancario / App Móvil / Canales Digitales
-        |
-        ↓
-FastAPI Backend
-        |
-        ↓
-Azure API Management
-        |
-        ↓
-Azure AI Foundry
-        |
- ┌───────────────┬─────────────────┬───────────────┐
- ↓               ↓                 ↓
-Azure OpenAI   Azure ML          MLflow
-GenAI          Modelos ML        MLOps
-                |
-                ↓
-          Azure Databricks
-                |
-      ┌─────────┴──────────┐
-      ↓                    ↓
-Azure Data Lake       Power BI
-Storage Gen2          Analytics
-      |
-      ↓
-Core Banking | CRM | Pagos | Tarjetas | Fraude | Riesgo
+# 🗺️ Arquitectura de la Solución
+
+```mermaid
+flowchart TD
+
+A[👤 Usuarios] --> B[📱 Portal Bancario<br/>App Móvil<br/>Canales Digitales]
+
+B --> C[⚡ FastAPI Backend]
+
+C --> D[🔗 Azure API Management]
+
+D --> E[🤖 Azure AI Foundry]
+
+E --> F[💬 Azure OpenAI<br/>GenAI]
+E --> G[🧠 Azure Machine Learning<br/>Modelos Predictivos]
+E --> H[📦 MLflow<br/>MLOps]
+
+H --> I[⚙️ Azure Databricks<br/>Lakehouse]
+
+I --> J[🗄️ Azure Data Lake<br/>Storage Gen2]
+
+I --> K[📊 Power BI<br/>Analytics]
+
+J --> L[🏦 Core Banking<br/>CRM<br/>Pagos<br/>Tarjetas<br/>Fraude<br/>Riesgo Crediticio]
+
+```
+
 ---
+
 Arquitectura empresarial basada en Microsoft Azure y Databricks para diseñar, desplegar y gobernar soluciones de Inteligencia Artificial, Machine Learning y GenAI aplicadas al sector financiero, integrando analítica avanzada, modelos de riesgo crediticio, detección de fraude, automatización inteligente, cumplimiento regulatorio y gobierno de datos mediante prácticas MLOps, seguridad, observabilidad y escalabilidad empresarial.
 ---
 
