@@ -1,4 +1,4 @@
-# 🏗️ Sector Financiero y Banca: Diseño e Implementación de una Arquitectura de IA, Machine Learning y GenAI sobre Azure y Databricks
+# 🏦 Sector Financiero y Banca: Diseño e Implementación de una Arquitectura de IA, Machine Learning y GenAI sobre Azure y Databricks
 
 Arquitectura empresarial de extremo a extremo para unificar, escalar y gobernar soluciones de **Inteligencia Artificial (IA)**, **Machine Learning (ML)** e **IA Generativa (GenAI)** en el sector financiero y bancario utilizando **Microsoft Azure**, **Databricks** y prácticas de **MLOps**.
 
